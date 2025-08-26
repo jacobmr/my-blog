@@ -1,0 +1,14 @@
+# Cloudflare Pages configuration
+# This file documents the build settings for Cloudflare Pages deployment
+
+# Build Configuration:
+# - Framework preset: Hugo
+# - Build command: hugo
+# - Build output directory: public
+# - Root directory: /
+# - Environment variables: HUGO_VERSION=0.148.2
+
+# Additional Notes:
+# - Make sure to set HUGO_VERSION in Cloudflare Pages environment variables
+# - The site will automatically rebuild on git pushes to main branch
+# - Hugo extended version is required for SCSS support
