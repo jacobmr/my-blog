@@ -1,0 +1,51 @@
+baseURL = 'https://my-blog.pages.dev/'
+languageCode = 'en-us'
+title = 'My Blog'
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+  title = "My Blog"
+  description = "A modern blog built with Hugo and PaperMod theme"
+  keywords = ["blog", "hugo", "papermod"]
+  author = "Your Name"
+  
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  
+  homeInfoParams.Title = "Welcome to My Blog"
+  homeInfoParams.Content = "A place where I share my thoughts and experiences"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+  
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "github"
