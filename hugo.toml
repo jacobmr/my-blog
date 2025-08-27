@@ -10,6 +10,11 @@ theme = 'PaperMod'
   keywords = ["ideas"]
   author = "Your Name"
   
+  favicon = "/favicon.ico"
+  favicon16x16 = "/favicon-16x16.png"
+  favicon32x32 = "/favicon-32x32.png"
+  appleTouchIcon = "/apple-touch-icon.png"
+  
   defaultTheme = "auto"
   disableThemeToggle = false
   
