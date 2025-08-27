@@ -1,4 +1,4 @@
-baseURL = 'https://example.org'
+baseURL = 'https://www.astudent.org'
 languageCode = 'en-us'
 title = 'Ideas'
 theme = 'PaperMod'
@@ -21,7 +21,7 @@ theme = 'PaperMod'
   ShowRssButtonInSectionTermList = false
   
   homeInfoParams.Title = ""
-  homeInfoParams.Content = "I have ideas.."
+  homeInfoParams.Content = "I have ideas..\n\n\"Student\" was the anonymous creator of the Student's t-test in 1908, who published under the name \"Student\" while working at the Guinness Brewery. The choice of pseudonym reflects the perspective that these observations come not from an administrator or policymaker, but from the vantage point of the learner and the consumer of education. Just as \"Student\" reshaped the way we understand variation and inference, this blog argues for a reshaping of how we think about the liberal arts college product and its fit in today's market."
 
 
 [markup]
