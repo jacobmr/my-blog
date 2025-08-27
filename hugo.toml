@@ -1,46 +1,28 @@
 baseURL = 'https://example.org'
 languageCode = 'en-us'
-title = 'My Blog'
+title = 'Ideas'
 theme = 'PaperMod'
 
 [params]
   env = "production"
-  title = "My Blog"
-  description = "A modern blog built with Hugo and PaperMod theme"
-  keywords = ["blog", "hugo", "papermod"]
+  title = "Ideas"
+  description = "I have ideas.."
+  keywords = ["ideas"]
   author = "Your Name"
   
   defaultTheme = "auto"
   disableThemeToggle = false
   
-  ShowReadingTime = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
-  ShowRssButtonInSectionTermList = true
+  ShowReadingTime = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
   
-  homeInfoParams.Title = "Welcome to My Blog"
-  homeInfoParams.Content = "A place where I share my thoughts and experiences"
+  homeInfoParams.Title = ""
+  homeInfoParams.Content = "I have ideas.."
 
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 10
-  
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 20
-  
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 30
 
 [markup]
   [markup.highlight]
